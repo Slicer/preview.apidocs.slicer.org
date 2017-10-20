@@ -2,6 +2,7 @@
 
 set -e
 set -o pipefail
+set -x
 
 if [[ $TRAVIS_EVENT_TYPE != "cron" ]]; then
   echo "gh-pages-reset: skipping because TRAVIS_EVENT_TYPE env. variable is not set to 'cron'"
@@ -25,10 +26,10 @@ git fetch origin $SOURCE_BRANCH
 git branch -D $SOURCE_BRANCH || true
 git checkout -b $SOURCE_BRANCH FETCH_HEAD
 
-git push origin $SOURCE_BRANCH:$TARGET_BRANCH --force > /dev/null 2>&1
+git push origin $SOURCE_BRANCH:$TARGET_BRANCH --force
 push_exit_code=$?
 if [[ ! $push_exit_code -eq 0 ]]; then
-  echo "gh-pages-reset: skipping because command 'git push origin $SOURCE_BRANCH:$TARGET_BRANCH --force' failed"
+  echo "gh-pages-reset: skipping because push command failed"
   exit $push_exit_code
 fi
 
