@@ -23,7 +23,7 @@ TARGET_BRANCH=gh-pages
 git checkout master
 git fetch origin $SOURCE_BRANCH
 git branch -D $SOURCE_BRANCH > /dev/null 2>&1
-git checkout -b $SOURCE_BRANCH origin/$SOURCE_BRANCH
+git checkout -b $SOURCE_BRANCH FETCH_HEAD
 
 git push origin $SOURCE_BRANCH:$TARGET_BRANCH --force > /dev/null 2>&1
 push_exit_code=$?
