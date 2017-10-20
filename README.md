@@ -20,8 +20,12 @@ will be triggered weekly and will execute [gh-pages-reset.sh](./gh-pages-reset.s
 
 The script simply push force the branch `gh-pages-reset` onto `gh-pages`.
 
+Last TravisCI Cron Job: [![Build Status][travis_img]][travis]
+
 [max_size]: https://help.github.com/articles/what-is-my-disk-quota/
 [cronjob]: https://docs.travis-ci.com/user/cron-jobs/
+[travis]: https://travis-ci.org/Slicer/preview.apidocs.slicer.org
+[travis_img]: https://travis-ci.org/Slicer/preview.apidocs.slicer.org.svg?branch=master
 
 ## Programmatically request a *gh-pages reset* using TravisCI API
 
