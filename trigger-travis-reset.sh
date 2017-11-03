@@ -4,7 +4,7 @@ set -e
 set -o pipefail
 
 if [[ -z $GITHUB_TOKEN ]]; then
-  echo "travis-trigger-cron: skipping because GITHUB_TOKEN env. variable is not set"
+  echo "travis-trigger-reset: skipping because GITHUB_TOKEN env. variable is not set"
   exit 1
 fi
 

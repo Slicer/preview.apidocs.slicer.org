@@ -2,11 +2,13 @@
 
 This project hosts the Slicer API documentation served from http://preview.apidocs.slicer.org
 
+
 ## Automatic generation
 
 Documentation is automatically generated and pushed to the `gh-pages` branch configured as a [GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) source.
 
 For more details, see https://github.com/Slicer/slicer-apidocs-builder
+
 
 ## Reset gh-pages branch using TravisCI Cron Job
 
@@ -27,7 +29,8 @@ Last TravisCI Cron Job: [![Build Status][travis_img]][travis]
 [travis]: https://travis-ci.org/Slicer/preview.apidocs.slicer.org
 [travis_img]: https://travis-ci.org/Slicer/preview.apidocs.slicer.org.svg?branch=master
 
-## Programmatically request a *gh-pages reset* using TravisCI API
+
+## Programmatically request a reset of *gh-pages* using TravisCI API
 
 *This is useful to debug the TravisCI Cron Jobs witout having to wait.* 
 
@@ -44,7 +47,7 @@ chmod +x ~/bin/travis-cli
 * Trigger reset
 
 ```
-GITHUB_TOKEN=<YOUR_GITHUB_TOKEN> ./trigger-travis-cron.sh
+GITHUB_TOKEN=<YOUR_GITHUB_TOKEN> ./trigger-travis-reset.sh
 ```
 
 # license
