@@ -12,7 +12,7 @@
     </ul>
   </p>
   <script>
-  var MODE = {'subdirectory': '040000'}
+  var MODE = {'subdirectory': '040000'};
   document.addEventListener('DOMContentLoaded', function() {
      // Collect paths
     var request = new XMLHttpRequest();
@@ -24,27 +24,27 @@
       console.log(previews)
 
       // Collect sub-directories
-      var paths = []
+      var paths = [];
       for (i in tree){
         if (tree[i].mode != MODE['subdirectory']) {
-          continue
+          continue;
         }
-        paths.push(tree[i].path)
+        paths.push(tree[i].path);
       }
 
       // Add item to the list
       if (paths.length == 0) {
-        li = document.createElement('li')
-        li.appendChild(document.createTextNode('No topic to preview'))
-        previews.appendChild(li)
+        li = document.createElement('li');
+        li.appendChild(document.createTextNode('No topic to preview'));
+        previews.appendChild(li);
       } else {
 
         function addEntry(path){
           li = document.createElement('li');
           a = document.createElement('a');
-          a.href = path + "/index.html"
+          a.href = path + "/index.html";
           a.appendChild(document.createTextNode(path));
-          li.appendChild(a)
+          li.appendChild(a);
           previews.appendChild(li);
         }
 
@@ -53,8 +53,8 @@
         }
       }
     };
-    request.open('get', 'https://api.github.com/repos/slicer/preview.apidocs.slicer.org/git/trees/gh-pages')
-    request.send()
+    request.open('get', 'https://api.github.com/repos/slicer/preview.apidocs.slicer.org/git/trees/gh-pages');
+    request.send();
   }, false);
   </script>
 </body>
