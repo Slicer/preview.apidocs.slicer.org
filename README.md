@@ -10,7 +10,7 @@ Documentation is automatically generated and pushed to the `gh-pages` branch con
 For more details, see https://github.com/Slicer/slicer-apidocs-builder
 
 
-## Reset gh-pages branch using TravisCI Cron Job
+## Reset of `gh-pages` branch using TravisCI Cron Job
 
 Each time a PR is submitted on https://github.com/Slicer/Slicer, the generated
 documentation is added to a folder named after the pull request and pushed to
@@ -30,11 +30,12 @@ Last TravisCI Cron Job: [![Build Status][travis_img]][travis]
 [travis_img]: https://travis-ci.org/Slicer/preview.apidocs.slicer.org.svg?branch=master
 
 
-## Programmatically request a reset of *gh-pages* using TravisCI API
+## Programmatically request updates of `gh-pages` branch using TravisCI API
 
-*This is useful to debug the TravisCI Cron Jobs witout having to wait.* 
+### Prequisites
 
 * Install Travis client
+
 ```
 # Install travis client
 curl https://raw.githubusercontent.com/jcfr/docker-travis-cli/master/travis-cli.sh \
@@ -44,11 +45,25 @@ chmod +x ~/bin/travis-cli
 
 * Generate GitHub token - See [here](https://github.com/settings/tokens)
 
-* Trigger reset
+### Reset *gh-pages*
+
+*This is useful to debug the TravisCI Cron Jobs witout having to wait.*
 
 ```
-GITHUB_TOKEN=<YOUR_GITHUB_TOKEN> ./trigger-travis-reset.sh
+GITHUB_TOKEN=<YOUR_GITHUB_TOKEN> ./trigger-travis-reset.sh reset
 ```
+
+
+### Update *gh-pages* index.html merging `gh-pages-reset`
+
+*When cosmetic changes are done to the top-level page, this action allows to merge the
+updates pushed to `gh-pages-reset` into `gh-pages`.*
+
+```
+GITHUB_TOKEN=<YOUR_GITHUB_TOKEN> ./trigger-travis-reset.sh merge
+```
+
+
 
 # license
 
