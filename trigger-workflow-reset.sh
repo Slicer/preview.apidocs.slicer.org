@@ -36,5 +36,5 @@ curl \
     -H "Accept: application/vnd.github+json" \
     -H "Authorization: token ${GITHUB_TOKEN}" \
     "https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${GITHUB_WORKFLOW_ID}/dispatches" \
-    -d '{"ref":"master"}'
+    -d '{"ref":"main"}'
 

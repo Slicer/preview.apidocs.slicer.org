@@ -37,7 +37,7 @@ SOURCE_BRANCH=gh-pages-reset
 TARGET_BRANCH=gh-pages
 
 if [[ $UPDATE_MODE == "reset" ]]; then
-  git checkout master
+  git checkout main
   git fetch origin $SOURCE_BRANCH
   git branch -D $SOURCE_BRANCH || true
   git checkout -b $SOURCE_BRANCH FETCH_HEAD
@@ -46,7 +46,7 @@ if [[ $UPDATE_MODE == "reset" ]]; then
   push_exit_code=$?
 
 elif [[ $UPDATE_MODE == "merge" ]]; then
-  git checkout master
+  git checkout main
   git fetch origin +refs/heads/*:refs/remotes/origin/*
   git checkout -b $TARGET_BRANCH origin/$TARGET_BRANCH
   git merge origin/$SOURCE_BRANCH --log --no-ff

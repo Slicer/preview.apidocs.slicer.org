@@ -59,6 +59,6 @@ GITHUB_TOKEN=<YOUR_GITHUB_TOKEN> ./trigger-workflow-reset.sh merge
 
 It is covered by the Slicer License:
 
-https://github.com/Slicer/preview.apidocs.slicer.org/blob/master/License.txt
+https://github.com/Slicer/preview.apidocs.slicer.org/blob/main/License.txt
 
 
