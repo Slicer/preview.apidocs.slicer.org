@@ -4,23 +4,19 @@ set -e
 set -o pipefail
 set -x
 
-UPDATE_MODE=$TRAVIS_EVENT_TYPE
+UPDATE_MODE=${UPDATE_MODE:-reset}
 
 SCRIPT_NAME=$(basename $0)
 
-case $TRAVIS_EVENT_TYPE in
-cron)
-  UPDATE_MODE="reset"
-  echo "$SCRIPT_NAME: executed from Travis Cron job [UPDATE_MODE defaults to $UPDATE_MODE]"
-  ;;
+case $UPDATE_MODE in
 reset)
-  echo "$SCRIPT_NAME: executed from Travis API [UPDATE_MODE=$UPDATE_MODE]"
+  echo "$SCRIPT_NAME: executed with [UPDATE_MODE=$UPDATE_MODE]"
   ;;
 merge)
-  echo "$SCRIPT_NAME: executed from Travis API [UPDATE_MODE=$UPDATE_MODE]"
+  echo "$SCRIPT_NAME: executed with [UPDATE_MODE=$UPDATE_MODE]"
   ;;
 *)
-  echo "$SCRIPT_NAME: skipping because invalid TRAVIS_EVENT_TYPE value. Accepted values are 'cron', 'reset' or 'merge'"
+  echo "$SCRIPT_NAME: skipping because invalid UPDATE_MODE value. Accepted values are 'reset' or 'merge'"
   exit 1
   ;;
 esac
