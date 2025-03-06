@@ -10,5 +10,5 @@ var searchData=
   ['intersectionmode_7',['IntersectionMode',['../classvtkMRMLSliceDisplayNode.html#a6c811a54c2fc95b00f3672934dc6b7d2',1,'vtkMRMLSliceDisplayNode']]],
   ['ioaction_8',['IOAction',['../classqSlicerFileDialog.html#afdc37c61d71fcc0e81c05b9756017e45',1,'qSlicerFileDialog']]],
   ['ipdatatype_9',['ipDataType',['../misc_8h.html#aaf29f928c2439935d11f1a13dc35d7e2',1,'misc.h']]],
-  ['itemdatarole_10',['ItemDataRole',['../classqMRMLColorModel.html#a8c777636964cc004b9bb079bcebfc974',1,'qMRMLColorModel::ItemDataRole'],['../classqMRMLSceneModel.html#a13ba88b7b88673ab5672219030c0d793',1,'qMRMLSceneModel::ItemDataRole'],['../classqMRMLTableModel.html#a5ab37d86f083304284db4647572abfbf',1,'qMRMLTableModel::ItemDataRole'],['../classqMRMLSubjectHierarchyModel.html#aa9d9b64293ac254103ff9085b5a243d4',1,'qMRMLSubjectHierarchyModel::ItemDataRole']]]
+  ['itemdatarole_10',['ItemDataRole',['../classqMRMLItemDelegate.html#a87178bab548690b1f2d7a2ad5c153529',1,'qMRMLItemDelegate::ItemDataRole'],['../classqMRMLSceneModel.html#a13ba88b7b88673ab5672219030c0d793',1,'qMRMLSceneModel::ItemDataRole'],['../classqMRMLTableModel.html#a5ab37d86f083304284db4647572abfbf',1,'qMRMLTableModel::ItemDataRole'],['../classqMRMLSubjectHierarchyModel.html#aa9d9b64293ac254103ff9085b5a243d4',1,'qMRMLSubjectHierarchyModel::ItemDataRole']]]
 ];

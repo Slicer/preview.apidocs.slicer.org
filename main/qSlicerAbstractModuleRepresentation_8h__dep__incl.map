@@ -47,8 +47,8 @@
 <area shape="poly" id="edge22_Node000002_Node000023" title=" " alt="" coords="3013,113,3466,118,4100,129,4739,149,5005,162,5207,179,5256,186,5256,191,5206,184,5005,168,4738,154,4100,135,3466,123,3013,118"/>
 <area shape="rect" id="Node000024" href="$qSlicerViewControllersModuleWidget_8h.html" title=" " alt="" coords="5491,189,5770,229"/>
 <area shape="poly" id="edge23_Node000002_Node000024" title=" " alt="" coords="3014,113,3514,118,4226,129,4949,149,5251,162,5479,179,5534,186,5533,191,5478,184,5250,168,4949,154,4226,134,3514,123,3014,118"/>
-<area shape="rect" id="Node000025" href="$qSlicerVolumeRenderingModuleWidget_8h.html" title=" " alt="" coords="5795,181,6085,236"/>
-<area shape="poly" id="edge24_Node000002_Node000025" title=" " alt="" coords="3014,112,3565,117,4366,127,5183,147,5525,161,5783,179,5795,180,5794,185,5782,184,5524,166,5183,152,4366,132,3565,122,3014,118"/>
+<area shape="rect" id="Node000025" href="$qSlicerVolumeRenderingModuleWidget_8h.html" title=" " alt="" coords="5795,189,6085,229"/>
+<area shape="poly" id="edge24_Node000002_Node000025" title=" " alt="" coords="3014,112,3565,117,4366,127,5183,147,5525,161,5783,179,5840,186,5840,191,5782,184,5524,166,5183,152,4366,132,3565,122,3014,118"/>
 <area shape="rect" id="Node000026" href="$qSlicerVolumesModuleWidget_8h.html" title=" " alt="" coords="6109,189,6341,229"/>
 <area shape="poly" id="edge25_Node000002_Node000026" title=" " alt="" coords="3014,112,3619,112,4512,119,4983,127,5426,139,5809,156,6098,179,6145,186,6144,191,6097,184,5808,161,5426,145,4983,132,4512,124,3619,117,3014,117"/>
 </map>

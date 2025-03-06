@@ -17,8 +17,8 @@ var searchData=
   ['consoleloglevel_14',['consoleLogLevel',['../classqSlicerSettingsPythonPanel.html#a39b4d56078cdcc895512cba023ba92a9',1,'qSlicerSettingsPythonPanel']]],
   ['contextmenuenabled_15',['contextMenuEnabled',['../classqMRMLSubjectHierarchyTreeView.html#a797324d925d425955a2f7bdb815e169b',1,'qMRMLSubjectHierarchyTreeView']]],
   ['contributors_16',['contributors',['../classqSlicerAbstractCoreModule.html#a0af1b3f6e506fe94b350002b82998082',1,'qSlicerAbstractCoreModule::contributors'],['../classqSlicerScriptedLoadableModule.html#add8791836761a262bea5d1375acb3bf5',1,'qSlicerScriptedLoadableModule::contributors']]],
-  ['coordinatereference_17',['coordinateReference',['../classqMRMLMatrixWidget.html#a2476604a9f00dc0fe728053cf34bd5e9',1,'qMRMLMatrixWidget']]],
-  ['coordinatereference_18',['CoordinateReference',['../classqMRMLLinearTransformSlider.html#a45f57a94caeb008b76f83aa562b3c406',1,'qMRMLLinearTransformSlider::CoordinateReference'],['../classqMRMLTransformSliders.html#a64279b7e84b3f5051c6a9ca58e65be2f',1,'qMRMLTransformSliders::CoordinateReference']]],
+  ['coordinatereference_17',['CoordinateReference',['../classqMRMLLinearTransformSlider.html#a45f57a94caeb008b76f83aa562b3c406',1,'qMRMLLinearTransformSlider::CoordinateReference'],['../classqMRMLTransformSliders.html#a64279b7e84b3f5051c6a9ca58e65be2f',1,'qMRMLTransformSliders::CoordinateReference']]],
+  ['coordinatereference_18',['coordinateReference',['../classqMRMLMatrixWidget.html#a2476604a9f00dc0fe728053cf34bd5e9',1,'qMRMLMatrixWidget']]],
   ['currentcolor_19',['currentColor',['../classqMRMLLabelComboBox.html#a23b0535b90adb499d78341a2c12113f8',1,'qMRMLLabelComboBox']]],
   ['currentcolorname_20',['currentColorName',['../classqMRMLLabelComboBox.html#a20a671b33db1430c3f15b9a486d7b959',1,'qMRMLLabelComboBox']]],
   ['currentgpumemory_21',['currentGPUMemory',['../classqSlicerGPUMemoryComboBox.html#a0aafb02cf4fb38a94d97d8283f24406d',1,'qSlicerGPUMemoryComboBox']]],
@@ -27,7 +27,7 @@ var searchData=
   ['currentmodulename_24',['currentModuleName',['../classqSlicerModuleFinderDialog.html#a4809dd0b29c368d9a5b0b6c29b81610e',1,'qSlicerModuleFinderDialog']]],
   ['currentmsaa_25',['currentMSAA',['../classqSlicerSettingsViewsPanel.html#a1f3845fcb13ed35b0d78c46ff76f1800',1,'qSlicerSettingsViewsPanel']]],
   ['currentnodeactive_26',['currentNodeActive',['../classqSlicerMarkupsPlaceWidget.html#ad0f32338eecc562a1cfdf2361628d3f1',1,'qSlicerMarkupsPlaceWidget']]],
-  ['currentnodeid_27',['currentNodeId',['../classqMRMLNodeComboBox.html#a6389a63b349e01b014f01fa45ad4c0fa',1,'qMRMLNodeComboBox']]],
-  ['currentnodeid_28',['currentNodeID',['../classqMRMLNodeComboBox.html#a5d1fcf92741dd71ad7b8be2da805b2ac',1,'qMRMLNodeComboBox']]],
+  ['currentnodeid_27',['currentNodeID',['../classqMRMLNodeComboBox.html#a5d1fcf92741dd71ad7b8be2da805b2ac',1,'qMRMLNodeComboBox']]],
+  ['currentnodeid_28',['currentNodeId',['../classqMRMLNodeComboBox.html#a6389a63b349e01b014f01fa45ad4c0fa',1,'qMRMLNodeComboBox']]],
   ['currentstyle_29',['currentStyle',['../classqSlicerSettingsStylesPanel.html#a741739cd70f78c159a7efae6a2128571',1,'qSlicerSettingsStylesPanel']]]
 ];
